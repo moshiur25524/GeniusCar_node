@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import UserContext from './contexts/UserContext/UserContext.jsx'
+import 'react-day-picker/dist/style.css';
 
 
 

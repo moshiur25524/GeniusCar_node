@@ -7,6 +7,7 @@ import Orders from "../../pages/Orders/Orders";
 import Demo from "../../pages/Demo/Demo";
 import Login from "../../pages/Home/Login/Login";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import Appointment from "../../pages/Appointment/Appointment";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         {
             path:'/orders',
             element: <PrivateRoute><Orders/></PrivateRoute>
+        },
+        {
+            path:'/appointment',
+            element: <Appointment/>
         },
         {
             path:'/checkout/:id',
